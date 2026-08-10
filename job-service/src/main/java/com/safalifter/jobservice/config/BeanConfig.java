@@ -1,4 +1,4 @@
-package com.safalifter.jobservice.config;
+package com.shivraj.jobservice.config;
 
 
 import org.modelmapper.Conditions;

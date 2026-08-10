@@ -1,4 +1,4 @@
-package com.safalifter.jobservice.request.category;
+package com.shivraj.jobservice.request.category;
 
 import lombok.Data;
 

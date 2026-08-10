@@ -1,7 +1,7 @@
-package com.safalifter.userservice.model;
+package com.shivraj.userservice.model;
 
-import com.safalifter.userservice.enums.Active;
-import com.safalifter.userservice.enums.Role;
+import com.shivraj.userservice.enums.Active;
+import com.shivraj.userservice.enums.Role;
 import lombok.*;
 
 import javax.persistence.*;

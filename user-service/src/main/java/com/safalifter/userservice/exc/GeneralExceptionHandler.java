@@ -1,4 +1,4 @@
-package com.safalifter.userservice.exc;
+package com.shivraj.userservice.exc;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

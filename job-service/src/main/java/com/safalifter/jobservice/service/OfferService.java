@@ -1,15 +1,15 @@
-package com.safalifter.jobservice.service;
+package com.shivraj.jobservice.service;
 
-import com.safalifter.jobservice.client.UserServiceClient;
-import com.safalifter.jobservice.dto.UserDto;
-import com.safalifter.jobservice.enums.OfferStatus;
-import com.safalifter.jobservice.exc.NotFoundException;
-import com.safalifter.jobservice.model.Advert;
-import com.safalifter.jobservice.model.Offer;
-import com.safalifter.jobservice.repository.OfferRepository;
-import com.safalifter.jobservice.request.notification.SendNotificationRequest;
-import com.safalifter.jobservice.request.offer.MakeAnOfferRequest;
-import com.safalifter.jobservice.request.offer.OfferUpdateRequest;
+import com.shivraj.jobservice.client.UserServiceClient;
+import com.shivraj.jobservice.dto.UserDto;
+import com.shivraj.jobservice.enums.OfferStatus;
+import com.shivraj.jobservice.exc.NotFoundException;
+import com.shivraj.jobservice.model.Advert;
+import com.shivraj.jobservice.model.Offer;
+import com.shivraj.jobservice.repository.OfferRepository;
+import com.shivraj.jobservice.request.notification.SendNotificationRequest;
+import com.shivraj.jobservice.request.offer.MakeAnOfferRequest;
+import com.shivraj.jobservice.request.offer.OfferUpdateRequest;
 import lombok.RequiredArgsConstructor;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.modelmapper.ModelMapper;

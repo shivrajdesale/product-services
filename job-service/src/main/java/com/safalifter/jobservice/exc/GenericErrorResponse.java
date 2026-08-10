@@ -1,4 +1,4 @@
-package com.safalifter.jobservice.exc;
+package com.shivraj.jobservice.exc;
 
 import lombok.Builder;
 import lombok.Getter;

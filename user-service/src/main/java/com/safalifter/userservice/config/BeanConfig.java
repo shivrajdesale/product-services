@@ -1,4 +1,4 @@
-package com.safalifter.userservice.config;
+package com.shivraj.userservice.config;
 
 
 import org.modelmapper.Conditions;

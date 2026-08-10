@@ -1,4 +1,4 @@
-package com.safalifter.jobservice.jwt;
+package com.shivraj.jobservice.jwt;
 
 import io.jsonwebtoken.Claims;
 import lombok.RequiredArgsConstructor;

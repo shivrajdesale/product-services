@@ -1,6 +1,6 @@
-package com.safalifter.userservice.request;
+package com.shivraj.userservice.request;
 
-import com.safalifter.userservice.model.UserDetails;
+import com.shivraj.userservice.model.UserDetails;
 import lombok.Data;
 
 import javax.validation.constraints.NotBlank;

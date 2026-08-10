@@ -1,4 +1,4 @@
-package com.safalifter.userservice.model;
+package com.shivraj.userservice.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;

@@ -1,4 +1,4 @@
-package com.safalifter.jobservice;
+package com.shivraj.jobservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

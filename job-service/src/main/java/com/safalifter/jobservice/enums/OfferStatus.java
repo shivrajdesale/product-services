@@ -1,4 +1,4 @@
-package com.safalifter.jobservice.enums;
+package com.shivraj.jobservice.enums;
 
 public enum OfferStatus {
     OPEN, CLOSED, ACCEPTED, REJECTED

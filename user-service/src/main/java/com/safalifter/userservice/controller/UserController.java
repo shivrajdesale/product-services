@@ -1,10 +1,10 @@
-package com.safalifter.userservice.controller;
+package com.shivraj.userservice.controller;
 
-import com.safalifter.userservice.dto.AuthUserDto;
-import com.safalifter.userservice.dto.UserDto;
-import com.safalifter.userservice.request.RegisterRequest;
-import com.safalifter.userservice.request.UserUpdateRequest;
-import com.safalifter.userservice.service.UserService;
+import com.shivraj.userservice.dto.AuthUserDto;
+import com.shivraj.userservice.dto.UserDto;
+import com.shivraj.userservice.request.RegisterRequest;
+import com.shivraj.userservice.request.UserUpdateRequest;
+import com.shivraj.userservice.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.http.ResponseEntity;

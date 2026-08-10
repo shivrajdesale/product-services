@@ -1,6 +1,6 @@
-package com.safalifter.userservice.dto;
+package com.shivraj.userservice.dto;
 
-import com.safalifter.userservice.enums.Role;
+import com.shivraj.userservice.enums.Role;
 import lombok.Data;
 
 @Data

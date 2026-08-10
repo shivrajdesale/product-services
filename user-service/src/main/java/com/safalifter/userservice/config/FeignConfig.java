@@ -1,6 +1,6 @@
-package com.safalifter.userservice.config;
+package com.shivraj.userservice.config;
 
-import com.safalifter.userservice.client.CustomErrorDecoder;
+import com.shivraj.userservice.client.CustomErrorDecoder;
 import feign.codec.ErrorDecoder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

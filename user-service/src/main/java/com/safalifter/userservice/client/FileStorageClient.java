@@ -1,4 +1,4 @@
-package com.safalifter.userservice.client;
+package com.shivraj.userservice.client;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;

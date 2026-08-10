@@ -1,6 +1,6 @@
-package com.safalifter.jobservice.client;
+package com.shivraj.jobservice.client;
 
-import com.safalifter.jobservice.dto.UserDto;
+import com.shivraj.jobservice.dto.UserDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,6 +1,6 @@
-package com.safalifter.jobservice.request.advert;
+package com.shivraj.jobservice.request.advert;
 
-import com.safalifter.jobservice.enums.Advertiser;
+import com.shivraj.jobservice.enums.Advertiser;
 import lombok.Data;
 
 import javax.validation.constraints.NotBlank;

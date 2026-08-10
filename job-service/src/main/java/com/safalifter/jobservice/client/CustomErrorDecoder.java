@@ -1,7 +1,7 @@
-package com.safalifter.jobservice.client;
+package com.shivraj.jobservice.client;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.safalifter.jobservice.exc.GenericErrorResponse;
+import com.shivraj.jobservice.exc.GenericErrorResponse;
 import feign.Response;
 import feign.codec.ErrorDecoder;
 import org.apache.commons.io.IOUtils;

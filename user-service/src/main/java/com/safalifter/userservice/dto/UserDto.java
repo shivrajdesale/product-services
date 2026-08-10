@@ -1,7 +1,7 @@
-package com.safalifter.userservice.dto;
+package com.shivraj.userservice.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.safalifter.userservice.model.UserDetails;
+import com.shivraj.userservice.model.UserDetails;
 import lombok.Data;
 
 import java.util.List;

@@ -1,6 +1,6 @@
-package com.safalifter.jobservice.repository;
+package com.shivraj.jobservice.repository;
 
-import com.safalifter.jobservice.model.Offer;
+import com.shivraj.jobservice.model.Offer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

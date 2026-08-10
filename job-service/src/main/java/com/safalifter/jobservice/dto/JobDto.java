@@ -1,4 +1,4 @@
-package com.safalifter.jobservice.dto;
+package com.shivraj.jobservice.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;

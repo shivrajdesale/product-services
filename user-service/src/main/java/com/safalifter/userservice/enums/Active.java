@@ -1,4 +1,4 @@
-package com.safalifter.userservice.enums;
+package com.shivraj.userservice.enums;
 
 public enum Active {
     ACTIVE, INACTIVE

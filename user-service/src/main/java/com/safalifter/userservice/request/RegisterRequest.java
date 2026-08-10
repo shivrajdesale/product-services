@@ -1,4 +1,4 @@
-package com.safalifter.userservice.request;
+package com.shivraj.userservice.request;
 
 import lombok.Data;
 

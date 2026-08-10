@@ -1,7 +1,7 @@
-package com.safalifter.userservice.repository;
+package com.shivraj.userservice.repository;
 
-import com.safalifter.userservice.enums.Active;
-import com.safalifter.userservice.model.User;
+import com.shivraj.userservice.enums.Active;
+import com.shivraj.userservice.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

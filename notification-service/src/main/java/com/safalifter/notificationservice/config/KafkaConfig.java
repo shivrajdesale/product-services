@@ -1,4 +1,4 @@
-package com.safalifter.notificationservice.config;
+package com.shivraj.notificationservice.config;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,4 +1,4 @@
-package com.safalifter.notificationservice.request;
+package com.shivraj.notificationservice.request;
 
 import lombok.Builder;
 import lombok.Getter;

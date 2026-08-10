@@ -1,8 +1,8 @@
-package com.safalifter.userservice;
+package com.shivraj.userservice;
 
-import com.safalifter.userservice.enums.Role;
-import com.safalifter.userservice.model.User;
-import com.safalifter.userservice.repository.UserRepository;
+import com.shivraj.userservice.enums.Role;
+import com.shivraj.userservice.model.User;
+import com.shivraj.userservice.repository.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

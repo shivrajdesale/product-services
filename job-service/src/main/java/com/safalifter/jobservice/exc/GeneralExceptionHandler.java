@@ -1,4 +1,4 @@
-package com.safalifter.jobservice.exc;
+package com.shivraj.jobservice.exc;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

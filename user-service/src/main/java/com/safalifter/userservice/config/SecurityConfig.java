@@ -1,6 +1,6 @@
-package com.safalifter.userservice.config;
+package com.shivraj.userservice.config;
 
-import com.safalifter.userservice.jwt.JwtAuthenticationFilter;
+import com.shivraj.userservice.jwt.JwtAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

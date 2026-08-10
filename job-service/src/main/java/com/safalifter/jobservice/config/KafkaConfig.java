@@ -1,4 +1,4 @@
-package com.safalifter.jobservice.config;
+package com.shivraj.jobservice.config;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.beans.factory.annotation.Value;

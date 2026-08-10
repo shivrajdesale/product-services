@@ -1,4 +1,4 @@
-package com.safalifter.jobservice.model;
+package com.shivraj.jobservice.model;
 
 
 import lombok.Getter;

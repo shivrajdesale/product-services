@@ -1,6 +1,6 @@
-package com.safalifter.notificationservice.repository;
+package com.shivraj.notificationservice.repository;
 
-import com.safalifter.notificationservice.model.Notification;
+import com.shivraj.notificationservice.model.Notification;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

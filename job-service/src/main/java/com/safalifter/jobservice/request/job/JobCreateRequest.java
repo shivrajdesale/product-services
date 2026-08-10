@@ -1,4 +1,4 @@
-package com.safalifter.jobservice.request.job;
+package com.shivraj.jobservice.request.job;
 
 import lombok.Data;
 

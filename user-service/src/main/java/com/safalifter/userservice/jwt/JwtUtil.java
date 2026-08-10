@@ -1,4 +1,4 @@
-package com.safalifter.userservice.jwt;
+package com.shivraj.userservice.jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

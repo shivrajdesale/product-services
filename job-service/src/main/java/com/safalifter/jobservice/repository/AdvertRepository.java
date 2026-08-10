@@ -1,7 +1,7 @@
-package com.safalifter.jobservice.repository;
+package com.shivraj.jobservice.repository;
 
-import com.safalifter.jobservice.enums.Advertiser;
-import com.safalifter.jobservice.model.Advert;
+import com.shivraj.jobservice.enums.Advertiser;
+import com.shivraj.jobservice.model.Advert;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

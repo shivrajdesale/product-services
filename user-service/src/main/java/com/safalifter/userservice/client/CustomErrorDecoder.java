@@ -1,7 +1,7 @@
-package com.safalifter.userservice.client;
+package com.shivraj.userservice.client;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.safalifter.userservice.exc.GenericErrorResponse;
+import com.shivraj.userservice.exc.GenericErrorResponse;
 import feign.Response;
 import feign.codec.ErrorDecoder;
 import org.apache.commons.io.IOUtils;

@@ -1,8 +1,8 @@
-package com.safalifter.notificationservice.service;
+package com.shivraj.notificationservice.service;
 
-import com.safalifter.notificationservice.model.Notification;
-import com.safalifter.notificationservice.repository.NotificationRepository;
-import com.safalifter.notificationservice.request.SendNotificationRequest;
+import com.shivraj.notificationservice.model.Notification;
+import com.shivraj.notificationservice.repository.NotificationRepository;
+import com.shivraj.notificationservice.request.SendNotificationRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
