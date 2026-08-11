@@ -1,0 +1,17 @@
+networks:
+  triton-network:
+    external: true
+    name: triton-network
+
+services:
+  notification-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: notification-service
+    image: notification-service
+    environment:
+      - SPRING_CONFIG_IMPORT=configserver:http://config-server:8888/
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - triton-network

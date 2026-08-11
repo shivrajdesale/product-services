@@ -1,0 +1,17 @@
+networks:
+  triton-network:
+    external: true
+    name: triton-network
+
+services:
+  job-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: job-service
+    image: job-service:latest
+    environment:
+      - SPRING_CONFIG_IMPORT=configserver:http://config-server:8888/
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - triton-network

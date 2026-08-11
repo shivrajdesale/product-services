@@ -1,0 +1,19 @@
+networks:
+  triton-network:
+    external: true
+    name: triton-network
+
+services:
+  file-storage:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: file-storage
+    image: file-storage:latest
+    environment:
+      - SPRING_CONFIG_IMPORT=configserver:http://config-server:8888/
+      - SPRING_PROFILES_ACTIVE=docker
+    volumes:
+      - /Users/shivrajdesale/Workspaces/app-uploads/docker:/app/data/attachments
+    networks:
+      - triton-network

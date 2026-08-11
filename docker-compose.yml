@@ -5,6 +5,8 @@ services:
     environment:
       ZOOKEEPER_CLIENT_PORT: 2181
       ZOOKEEPER_TICK_TIME: 2000
+    networks:
+      - triton-network
 
   kafka:
     image: confluentinc/cp-kafka:7.5.0
@@ -22,6 +24,8 @@ services:
       KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
       KAFKA_TRANSACTION_STATE_LOG_REREPLICATION_FACTOR: 1
+    networks:
+      - triton-network
 
   postgres:
     image: postgres:18.4
@@ -35,6 +39,8 @@ services:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql
+    networks:
+      - triton-network
 
   kafka-ui:
     image: provectuslabs/kafka-ui:v0.7.2
@@ -46,7 +52,14 @@ services:
     environment:
       KAFKA_CLUSTERS_0_NAME: local
       KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:29092
+    networks:
+      - triton-network
 
 volumes:
   pgdata:
     name: product-services_pgdata
+
+networks:
+  triton-network:
+    driver: bridge
+    name: triton-network

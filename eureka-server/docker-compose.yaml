@@ -1,0 +1,16 @@
+networks:
+  triton-network:
+    external: true
+    name: triton-network
+
+services:
+  eureka-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: eureka-server:latest
+    container_name: eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - triton-network 

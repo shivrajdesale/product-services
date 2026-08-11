@@ -1,0 +1,18 @@
+networks:
+  triton-network:
+    external: true
+    name: triton-network
+
+services:
+  config-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: config-server
+    image: config-server:latest
+    ports:
+      - "8888:8888"
+    environment:
+      - EUREKA_URI=http://eureka-server:8761/eureka
+    networks:
+      - triton-network

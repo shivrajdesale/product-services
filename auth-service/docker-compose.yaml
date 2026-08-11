@@ -1,0 +1,16 @@
+networks:
+  triton-network:
+    external: true
+    name: triton-network
+
+services:
+  auth-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: auth-service
+    environment:
+      - SPRING_CONFIG_IMPORT=configserver:http://config-server:8888/
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - triton-network

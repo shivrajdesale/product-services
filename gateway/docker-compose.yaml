@@ -1,0 +1,19 @@
+networks:
+  triton-network:
+    external: true
+    name: triton-network
+
+services:
+  gateway:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gateway
+    image: gateway:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_CONFIG_IMPORT=configserver:http://config-server:8888/
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - triton-network
