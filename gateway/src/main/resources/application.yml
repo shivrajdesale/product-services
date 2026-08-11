@@ -12,6 +12,8 @@ spring:
       httpclient:
         connect-timeout: 60000
         response-timeout: 60s
+  config:
+    import: ${SPRING_CONFIG_IMPORT:configserver:http://localhost:8888/}
   reactor:
     netty:
       http:
